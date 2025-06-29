@@ -1,0 +1,41 @@
+
+.sign{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+ 
+    p{
+     color: gray;
+       }
+    input , button{
+      min-width: 430px;
+
+         height: 48px;
+        border-radius: 8px;
+         border: 1px solid rgba(127, 86, 217, 1);
+         
+    }
+    button{
+    
+        background-color: #7F56D9;
+        color: white;
+    }
+    span{
+         min-width: 430px;
+
+         height: 48px;
+        text-align: center;
+    }
+}
+@media screen and (max-width:992px){
+    .sign{
+        
+        input , button{
+   min-width: 300px;
+         height: 48px;
+         border-radius: 8px;
+         border: 1px solid rgba(127, 86, 217, 1);
+    }
+    }
+}
